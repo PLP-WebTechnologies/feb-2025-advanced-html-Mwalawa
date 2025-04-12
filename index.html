@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML5 Features Demo</title>
+</head>
+<body>
+
+  <!-- Ordered List with Roman Numerals -->
+  <h2>My Favorite Activities</h2>
+  <ol type="I">
+    <li>Reading</li>
+    <li>Coding</li>
+    <li>Traveling</li>
+    <li>Watching</li>
+  </ol>
+
+  <!-- External Image from Pexels -->
+  <h2>Beautiful Scenery</h2>
+  <img src="https://images.pexels.com/photos/462118/pexels-photo-462118.jpeg" 
+       alt="Beautiful scenery" width="500">
+
+  <!-- Table of Contacts -->
+  <h2>Contact List</h2>
+  <table border="1" cellpadding="10">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Alice</td>
+        <td>Nairobi</td>
+        <td>0712345678</td>
+        <td>alice@example.com</td>
+      </tr>
+      <tr>
+        <td>Bob</td>
+        <td>Mombasa</td>
+        <td>0723456789</td>
+        <td>bob@example.com</td>
+      </tr>
+      <tr>
+        <td>Carol</td>
+        <td>Kisumu</td>
+        <td>0734567890</td>
+        <td>carol@example.com</td>
+      </tr>
+      <tr>
+        <td>David</td>
+        <td>Nakuru</td>
+        <td>0745678901</td>
+        <td>david@example.com</td>
+      </tr>
+      <tr>
+        <td>Emma</td>
+        <td>Eldoret</td>
+        <td>0756789012</td>
+        <td>emma@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Registration Form -->
+  <h2>User Registration</h2>
+  <form action="#" method="post">
+    <!-- Name -->
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter full name" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter password" minlength="6" required><br><br>
+
+    <!-- Date of Birth -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!-- Dropdown -->
+    <label for="country">Select Country:</label>
+    <select id="country" name="country" required>
+      <option value="">--Select--</option>
+      <option value="Kenya">Kenya</option>
+      <option value="Uganda">Uganda</option>
+      <option value="Tanzania">Tanzania</option>
+    </select><br><br>
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Checkboxes -->
+    <label>Skills:</label><br>
+    <input type="checkbox" id="html" name="skills" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="css" name="skills" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="checkbox" id="js" name="skills" value="JavaScript">
+    <label for="js">JavaScript</label><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Register">
+  </form>
+
+  <!-- Audio Element -->
+  <h2>Listen to this Sound</h2>
+  <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Video Element -->
+  <h2>Watch This Video</h2>
+  <video width="500" controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+</body>
+</html>
